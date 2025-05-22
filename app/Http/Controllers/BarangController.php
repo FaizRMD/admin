@@ -14,7 +14,8 @@ class BarangController extends Controller
             return strtolower($item->name);
         });
 
-        $imageDir = public_path('gambar');
+        $imageD
+        ir = public_path('gambar');
         $products = [];
 
         if (is_dir($imageDir)) {
