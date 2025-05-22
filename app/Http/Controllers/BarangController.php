@@ -6,7 +6,7 @@ use App\Models\Product;
 use Illuminate\Http\Request;
 
 class BarangController extends Controller
-{
+{ 
     public function index()
     {
         // Ambil semua produk dari database, keyBy nama produk lowercase
